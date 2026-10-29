@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+   <form>
+    Full Name: <input type="text" placeholder="Enter Your Name"><br><br>
+    Email: <input type="text" placeholder="Enter Valid email Adress"><br><br>
+    Password: <input type="text" placeholder="Enter Password"><br><br>
+    Gender:<label for="sectionidmale">
+    <input type="radio" value="male" name="gender" id="sectionidmale"> Male
+    </label>
+    <label for="sectionidfemale">
+        <input type="radio" value="female" name="gender" id="sectionidfemale">Female
+    </label>
+    <label for="sectionidother">
+        <input type="radio" value="other" name="gender" id="sectionidother">Other
+    </label><br><br>
+    Course: <select name="course" id="course">
+        <option value="no course seelct">--Select Course--</option>
+        <option value="B.Tech" >B.Tech</option>
+        <option value="B.E.">B.E.</option>
+        <option value="B.A.">B.A.</option>
+    </select><br><br>
+    Contact No: <input type="tel" pattern="[0-9]"{10} placeholder="Enter Your Number"><br><br>
+    Address:<br>
+    <textarea value="Enter Your Adress" rows="4" cols="40">
+    </textarea><br><br>
+    <input type="submit" value="Register">
+    <input type="submit" value="clear"> 
+    <hr>
+    <p align="center">&copy; 2025 Student Registration Portal</p>
+   </form> 
+</body>
+</html>
